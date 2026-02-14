@@ -17,11 +17,11 @@ public interface PokemonRepository extends JpaRepository<Pokemon, Long> {
 
     public Optional<Pokemon> findByNumDex(Long numDex);
 
-    default Pokemon guardar(Pokemon pokemon) {
+    default Pokemon guardar(@NonNull Pokemon pokemon) {
         return this.save(pokemon);
     }
 
-    default void guardarTodos(@Valid List<Pokemon> listaPokemon) {
+    default void guardarTodos(@Valid  List<Pokemon> listaPokemon) {
         saveAll(listaPokemon);
     }
 
@@ -38,7 +38,7 @@ public interface PokemonRepository extends JpaRepository<Pokemon, Long> {
     }
 
     default Pokemon borrarPorNumDex(Long numDex) {
-        Optional<Pokemon> borrado = this.buscarPorNumDex(numDex);
+        Optional<Pokemon> borrado = this.buscarPorNumDex( numDex);
         if(borrado.isPresent()) {
             this.deleteById(numDex);
             return borrado.get();

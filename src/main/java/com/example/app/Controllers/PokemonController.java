@@ -24,11 +24,6 @@ public class PokemonController {
 
     public List<String> tipos = PokemonService.obtenerTipos();
 
-    @GetMapping("/guion")
-    public String probando() {
-        return "guión";
-    }
-
     @GetMapping({ "/pokedex", "/todos", "/all" })
     public String verTodos(Model model) {
         model.addAttribute("pokedex", pokemonService.obtenerTodos());

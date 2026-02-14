@@ -1,16 +1,16 @@
 # DAW Proyecto Pokedex 📦
 
-Este repositorio contiene el proyecto de fin de ciclo
-"Pokedex" desarrollado para el ciclo de Desarrollo de Aplicaciones Web (DAW). Como proyecto final del mismo
+Este repositorio contiene el proyecto 
+"Pokedex" desarrollado para el ciclo de Desarrollo de Aplicaciones Web (DAW) como proyecto final del mismo
 La aplicación es una Pokedex interactiva basada en Spring Boot, Thymeleaf y
-Java que gestiona un catálogo de pokémon.
+Java, que gestiona un catálogo de pokémon, permitiendo un CRUD de la pokedex.
 
 ## 📝 Contenido del proyecto
 
 - `src/main/java/com/example/app/` – Código fuente Java, controladores,
   servicios, dominio y excepciones.
 - `src/main/resources/` – Recursos estáticos (CSS, JavaScript, imágenes) y
-  webs con Thymeleaf.
+  webs con Thymeleaf en Templates.
 - `pom.xml` – Configuración de Maven.
 - `mvnw`, `mvnw.cmd` – Wrappers de Maven para ejecutar sin instalación previa.
 
@@ -24,18 +24,20 @@ Java que gestiona un catálogo de pokémon.
 ```bash
 # Clonar el repositorio
 git clone https://github.com/MarquesitoClase/DAW-proyect-Pokedex.git
-cd DAW-proyect-Pokedex-
+cd DAW-proyect-Pokedex
 
 # Construir el proyecto
 ./mvnw clean package   # (Windows: mvnw.cmd clean package)
 
 # Ejecutar la aplicación
-./mvnw spring-boot:run
-# o ejecutar el jar generado:
-# java -jar target/*.jar
+./mvnw spring-boot:
+## ejecutar el jar generado:
+## java -jar target/*.jar
+
+##O lanzar la app desde el IDE que uses.
 ```
 
-La aplicación estará disponible en `http://localhost:8080`.
+La aplicación estará disponible en `http://localhost:9000`.
 
 ## 📂 Estructura de datos
 
