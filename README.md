@@ -1,7 +1,7 @@
 # DAW Proyecto Pokedex 📦
 
 Este repositorio contiene el proyecto de fin de ciclo
-"Pokedex" desarrollado en el módulo de Desarrollo de Aplicaciones Web (DAW).
+"Pokedex" desarrollado para el ciclo de Desarrollo de Aplicaciones Web (DAW). Como proyecto final del mismo
 La aplicación es una Pokedex interactiva basada en Spring Boot, Thymeleaf y
 Java que gestiona un catálogo de pokémon.
 
@@ -17,9 +17,7 @@ Java que gestiona un catálogo de pokémon.
 ## 🚀 Requisitos
 
 1. Java 17 (o superior).
-2. Maven (se puede usar el wrapper incluido).
-3. Un navegador web moderno para la interfaz.
-4. Mvn installed
+2. Maven.
 
 ## 🛠️ Configuración y ejecución
 
