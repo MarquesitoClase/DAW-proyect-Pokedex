@@ -56,7 +56,7 @@ detalles (si se añade más adelante).
 
 ## 👨‍💻 Autor
 
-- José Luis (jlmsc) – desarrollador del proyecto.
+- Juan Luis Marquez Canedo (jlmsc) – desarrollador del proyecto.
 
 ---
 
