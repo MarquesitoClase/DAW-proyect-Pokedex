@@ -1,6 +1,6 @@
 # DAW Proyecto Pokedex 📦
 
-Este repositorio contiene el proyecto 
+Este repositorio contiene el proyecto
 "Pokedex" desarrollado para el ciclo de Desarrollo de Aplicaciones Web (DAW) como proyecto final del mismo
 La aplicación es una Pokedex interactiva basada en Spring Boot, Thymeleaf y
 Java, que gestiona un catálogo de pokémon, permitiendo un CRUD de la pokedex.
@@ -60,8 +60,7 @@ Este proyecto está bajo licencia CC By.
 ## Endpoints aplicacion:
 http://localhost:9000: es la base con la que trabaja la app
 
-http://localhost:9000/api/pokemons: Muestra todos los datos del JSON como texto plano, en el orden del mismo(según 
-el número de la dex nacional).
+http://localhost:9000/api/pokemons: Muestra todos los datos del JSON como texto plano, en el orden del mismo(según el número de la dex nacional).
 
 http://localhost:9000/pokedex", "/todos" o "/all" Llevan a ver toda la vista de la pokedex gen la app
 
@@ -72,4 +71,6 @@ http://localhost:9000/editar/{numDex} Lleva a editar los datos del pokemon de es
 http://localhost:9000/borrar/{numDex} te elimina el pokemon con ese numDex(pide confirmación)
 
 http://localhost:9000/pokemonRobado/{numDex} (A esta ruta se te redirige si no tenemos en los datos al pokemon que buscas)
----
+
+## IA use to this proyect
+I use principally chatGPT to this proyect. How the images that i use was on the net if i say where i found it, thing that can easily be done if you go to api/pokemons(all pokemons have his urlGif into the data, you can see there where i get it from.). And a bit of copilot, principally for the readme structure. If you don't know how to use it nowadays, you will codify a lot lower than if you do. But they are just helps. You must know how to do it, and what catch and what not catch. And what change cause is not clean code.
