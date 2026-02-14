@@ -42,7 +42,8 @@ La aplicación estará disponible en `http://localhost:9000`.
 ## 📂 Estructura de datos
 
 Los pokémon se cargan desde `src/main/resources/static/json/pokemon.json`.
-Se pueden visualizar, editar y eliminar desde la interfaz web.
+Se pueden visualizar, editar, crear(si vas al numero de la pokedex que no estñe entre los datos) 
+y eliminar desde la interfaz web.
 
 ## 🧪 Pruebas
 
@@ -56,4 +57,19 @@ Este proyecto está bajo licencia CC By.
 
 - Juan Luis Marquez Canedo – desarrollador del proyecto.
 
+## Endpoints aplicacion:
+http://localhost:9000: es la base con la que trabaja la app
+
+/api/pokemons: Muestra todos los datos del JSON como texto plano, en el orden del mismo(según 
+el número de la dex nacional).
+
+/pokedex", "/todos" o "/all" Llevan a ver toda la vista de la pokedex gen la app
+
+/pokemonView/{#numDex} Lleva a ver el pokemon de la pokedex que has puesto.
+
+/editar/{numDex} Lleva a editar los datos del pokemon de ese número de la dex nacional(si no existe te lo crea al editarlo)
+
+/borrar/{numDex} te elimina el pokemon con ese numDex(pide confirmación)
+
+/pokemonRobado/{numDex}(A esta ruta se te redirige si no tenemos en los datos al pokemon que buscas)
 ---
