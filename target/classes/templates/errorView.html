@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <style>
+        .error *{
+            color:red;
+        }
+    </style>
+    <link rel="icon" type="image/png" href="/static/icono/MasterBal.png">
+</head>
+<body>
+    <h2>Error:</h2>
+    <p th:text="/t{error}" class="error"></p>
+    <a href="http://localhost:9000/pokedex">Volver a dexView</a>
+</body>
+</html>

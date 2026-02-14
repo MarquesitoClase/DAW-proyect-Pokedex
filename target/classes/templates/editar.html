@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+
+<head>
+    <link rel="icon" type="image/png" href="/static/icono/MasterBal.png">
+    <title th:text="'Editar a '+${buscado.nombre}"></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/editStyle.css">
+    <script src="/js/crearEditar.js"></script>
+    <link rel="icon" type="image/png" href="/static/icono/MasterBal.png">
+</head>
+
+<body>
+    <form th:action="@{/editar}" method="post" th:object="${buscado}">
+        <label for="iND">Numero de la pokedex: </label>
+        <input type="text" id="iND" name="numDex" th:value="${buscado.numDex}" readonly>
+
+        <label for="iNombre">Nombre:</label>
+        <input type="text" id="iNombre" maxlength="15" name="nombre" th:value="${buscado.nombre}"><br>
+
+        <label for="rutaImagen">Ubicación de la imagen:</label>
+        <input type="text" id="rutaImagen" maxlength="20" name="imagen" th:value="${buscado.imagen}">
+        <br>
+
+        <label for="generacionInicial">Generación inicial:</label>
+        <input type="number" min="1" max="9" id="generacionInicial" name="generacionInicial"
+            th:value="${buscado.generacionInicial}">
+        <br>
+
+        <label for="desc1">Primera descripción Pokédex:</label>
+        <textarea id="desc1" name="descripcionesPokedex[0]"
+            th:text="${buscado?.descripcionesPokedex?.get(0) ?: ''}"></textarea>
+
+        <label for="desc2">Segunda descripción Pokédex:</label>
+        <textarea id="desc2" name="descripcionesPokedex[1]"
+            th:text="${buscado?.descripcionesPokedex?.get(1) ?: ''}"></textarea>
+
+        <label for="desc3">Tercera descripción Pokédex:</label>
+        <textarea id="desc3" name="descripcionesPokedex[2]"
+            th:text="${buscado?.descripcionesPokedex?.get(2) ?: ''}"></textarea>
+
+        <label for="descFinal">Última descripción Pokédex:</label>
+        <textarea id="descFinal" name="descripcionesPokedex[3]"
+            th:text="${buscado?.descripcionesPokedex?.get(3) ?: ''}"></textarea><br>
+        <h2>Nuevos tipos:</h2>
+        <label for="tipo1">Tipo 1:</label>
+        <select name="tipos[0]" id="tipo1">
+            <option th:each="tipo : ${tiposPokemon}" th:value="${tipo.toUpperCase()}" th:text="${tipo.toLowerCase()}"
+                th:selected="${buscado.tipos[0] != null and buscado.tipos[0].toLowerCase() == tipo.toLowerCase()}">
+            </option>
+        </select>
+
+        <label for="tipo2">Tipo 2:</label>
+        <select id="tipo2" name="tipos[1]">
+            <option value="No tiene" th:selected="${buscado.tipos.size() < 2 or buscado.tipos[1] == 'No tiene'}">No
+                tiene</option>
+            <option th:each="tipo : ${tiposPokemon}" th:value="${tipo.toUpperCase()}" th:text="${tipo.toLowerCase()}"
+                th:selected="${buscado.tipos.size() > 1 and buscado.tipos[1].toLowerCase() == tipo.toLowerCase()}">
+            </option>
+        </select>
+        <br>
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+/* Contenedor principal */
+#contenedorPokemon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    border: solid 1px;
+}
+/*Topografía*/
+*{
+        font-family: 'Bebas Neue', sans-serif;
+}
+/* Estilo general de cada Pokémon */
+.pokemon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Tamaño de la imagen del Pokémon */
+.pokemon img {
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
+
+/* Nombre del Pokémon */
+.pokemon h3 {
+    font-weight: bold;
+    color: black;
+    padding: 3px;
+}
+
+/* Botones de tipo */
+.tipo {
+    border-radius: 60%;
+    width: 7px;
+    height: 4px;
+    background-color: antiquewhite;
+}
+
+/* Centrado de elementos */
+#combo {
+    display: block;
+    margin: auto;
+}
+
+/* Alterna la alineación de imágenes */
+div:nth-child(even) img {
+    float: right;
+}
+
+/* Estilo para listas con icono Poké Ball */
+ul {
+    list-style-image: url('/icono/PokeBall.png');
+}
+
+/* Tarjeta de Pokémon con animación */
+.pokemon-card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+/* Información del Pokémon dentro de la tarjeta */
+.pokemon-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+/* Ajusta el tamaño de la imagen de la tarjeta */
+.pokemon-card img {
+    width: 150px;
+    height: auto;
+}
+
+/* Alineación de contenido */
+.aliniado > * {
+    margin-left: 5px;
+}
+
+/* Tabla principal */
+#tablaPokemon {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 3px solid #EF2B34;
+}
+
+/* Efecto hover en filas de la tabla */
+#tablaPokemon tbody tr:hover {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Tamaño de botones generales */
+button {
+    width: 40px;
+    height: 15px;
+}
+
+/* Efecto hover en botones */
+button:hover {
+    transform: scale(1.2);
+}
+
+/* Alineación de texto en celdas */
+td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #EF2B34;
+    background-color: #594b49;
+}
+
+/* Asegura que las imágenes dentro de <td> se ajusten correctamente */
+td > img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: 5px;
+    box-sizing: border-box; /* Asegura que no oculte los bordes */
+}
+
+
+/* Botones dentro de las celdas de la tabla */
+td a {
+    display: inline-block;
+    min-width: 80px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #0056b3;
+    transition: 0.3s;
+}
+
+/* Efecto al pulsar sobre los "botones" de la tabla.*/
+td a:hover {
+    background-color: #0056b3;
+}
+
+/* Clases de color para los tipos de Pokémon */
+tr.FUEGO { background-color: #E72324; }
+tr.AGUA { background-color: #2481EF; }
+tr.PLANTA { background-color: rgb(42, 163, 42); }
+tr.PSIQUICO { background-color: #EF3F7A; }
+tr.SINIESTRO { background-color: #4F3F3D; }
+tr.VENENO { background-color: #6A2C9F; }
+tr.ROCA { background-color: #C5A67D; }
+tr.TIERRA { background-color: #6C4F2D; }
+tr.LUCHA { background-color: #FF6F00; }
+tr.ACERO { background-color: #A1A1A1; }
+tr.DRAGON { background-color: #003B5C; }
+tr.HADA { background-color: #F7A7D7; }
+tr.NORMAL { background-color: #D3D3D3; }
+tr.VOLADOR { background-color: #87CEEB; }
+tr.ELECTRICO { background-color: #FFD700; }
+tr.FANTASMA { background-color: #6A4C9C; }
+tr.BICHO { background-color: #6B8E23; }
+
+/* Barra de herramientas fija */
+#contenedorToolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+/* Contenedor de la barra de herramientas */
+#toolbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Ocultar la barra de herramientas */
+.toolbar-hidden {
+    transform: translateY(-80%);
+}
+/* Boton para ocultar y mostrar el menu interactivo para no tener que avanzár/retroceder hasta el número  de la dex a cambiar*/
+#toggleToolbar{
+    width: auto;
+    height: auto;
+}
+
+/* Tabla del daño recibido de los diferentes tipos pokemon */
+#tablaPokemon {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 3px solid #EF2B34;
+}
+
+/* Igual que la anterior. Para mantener estetica pokedex y site */
+#tablaEfectividadesContra{
+        border-collapse: separate;
+        border-spacing: 0;
+        border: 3px solid #EF2B34;
+}
+
+/* Todo un poco separado de la izquierda por preferencia personal*/
+#cuerpoDetalles{
+    margin:10%;
+}

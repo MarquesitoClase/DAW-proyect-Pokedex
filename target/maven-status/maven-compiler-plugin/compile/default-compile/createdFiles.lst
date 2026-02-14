@@ -1,0 +1,8 @@
+com\example\app\Application.class
+com\example\app\domain\Pokemon.class
+com\example\app\services\PokemonService$1.class
+com\example\app\Exceptions\PokemonNotFoundException.class
+com\example\app\services\PokemonService.class
+com\example\app\Exceptions\JSONNotFoundException.class
+com\example\app\data\PokemonRepository.class
+com\example\app\Controllers\pokemonRestController.class

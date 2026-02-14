@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <link rel="icon" type="image/png" href="/static/icono/MasterBal.png">
+    <title>dexView</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/dexView.js"></script>
+    <script src="/js/animaciones.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" href="/static/icono/MasterBal.png">
+</head>
+<body><br><br><br>
+    <h1>Pokédex original:</h1><span id="dexOriginal"> <img th:src="@{/img/pokedex.png}" alt="Pokedex"></span>
+    <section>
+        <ol>
+            <label>Creditos</label>
+            <li>Todos los datos e imagenes estaticas fueron obtenidos de <a href="https://www.wikidex.net">Wikidex</a></li>
+            <li>Todos los gifs animados se obtuvieron de <a href="https://tenor.com/es">Tenor</a></li>
+        </ol>
+        <ol>
+            <label>Posibles acciones usuario</label>
+            <li>Clickar en una fila de la tabla lleva a una web para ver los datos del pokemon de la fila. Control pulsado para nueva ventana.</li>
+            <li>Si navegas a <a href="/api/pokemons">http://localhost:9000/api/pokemons</a> veras los datos usados en la web "a lo bruto"</li>
+            <li>Si navegas a http://localhost:9000/editar/#DexPokemon, vas a la web para editar a ese numero de la dex de un pokemon existente(o enlace del pokemon en la tabla)</li>
+            <li>Si navegas a http://localhost:9000/editar/#DexPokemon, vas a la web para crear a ese numero de la dex.</li>
+            <li>Si navegas a http://localhost:9000/borrar/#DexPokemon, eliminas a ese pokemon del repositorio, ergo, de la vista(o enlace del pokemon en la tabla)</li>
+        </ol>
+    </section>
+    <div id="contenedorToolbar">
+        <div id="toolbar">
+            <input type="number" id="numDexBuscar">
+                <button id="verPokemon">Ver</button>
+                <button id="editarPokemon">Editar</button>
+                <button id="borrarPokemon">Borrar</button>
+        </div>
+        <button id="toggleToolbar">mostrar/ocultar</button>
+    </div>
+    <h1>Pokedex:</h1>
+    <table id="tablaPokemon" border="1">
+        <thead><tr><th>Imagen en movimiento y tipos del pokèmon</th><th>#Pokedex nacional y nombre</th>
+            <th>Descripciones de la dex</th><th colspan="2">Acciones del usuario</th></tr></thead>
+        <tbody>
+            <tr th:each="pokemon : ${pokedex}">
+                <td><img th:src="${pokemon.imagen}"></td>
+                <td><h2>#<span th:text="${pokemon.numDex}"></span>:<span th:text="${pokemon.nombre}"></span></h2></td>
+                <td>
+                    <li th:text="${pokemon.descripcionesPokedex[0]}"></li>
+                    <li th:text="${pokemon.descripcionesPokedex[1]}"></li>
+                    <li th:text="${pokemon.descripcionesPokedex[2]}"></li>
+                    <li th:text="${pokemon.descripcionesPokedex[3]}"></li>
+                </td>
+                <td>
+                    <a th:href="@{/borrar/{id}(id=${pokemon.numDex})}">Borrar</a>
+                </td>
+                <td>
+                    <a th:href="@{/editar/{id}(id=${pokemon.numDex})}">Actualizar</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

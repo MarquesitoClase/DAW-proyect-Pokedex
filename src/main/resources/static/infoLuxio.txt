@@ -1,0 +1,15 @@
+  "numDex": 404,
+        "nombre": Luxio
+        "tipos": [
+            "ELECTRICO"
+        ],
+        "descripcionesPokedex": [
+	    "2da gen: Al unir su cola con otro Luxio, pueden desprender potentes descargas por sus garras."
+            "4ta gen: Para comunicarse, se tocan con las patas delanteras y transmiten pulsos eléctricos con las garras.",
+	    "5ta gen: Por las puntas de sus garras pasa una fuerte corriente eléctrica. El mínimo roce debilita al enemigo.",
+	    "9na gen: Al unir su cola con la de otro Luxio, pueden emitir descargas eléctricas por las garras con una potencia mayor de lo habitual."
+        ],
+        "imagen":"/gif/luxio.gif",
+        "generacionInicial":4,
+        "urlGif":"https://tenor.com/es/view/luxio-pokemon-pokemon-luxio-discharge-luxio-uses-discharge-gif-4305512886248325912"
+    },

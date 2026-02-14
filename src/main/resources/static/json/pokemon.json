@@ -1,0 +1,372 @@
+[
+    {
+        "numDex": 1,
+        "nombre": "Bulbasaur",
+        "tipos": [
+            "PLANTA",
+            "VENENO"
+        ],
+        "descripcionesPokedex": [
+            "1ra gen:Una rara semilla fue plantada en su espalda al nacer. La planta brota y crece con este Pokémon.",
+            "2da gen:Lleva una semilla en su lomo desde que nació. A medida que crece, la semilla se hace más grande.",
+            "3ra gen:A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol.",
+            "9na gen:Lleva un bulbo en el lomo desde que nace. A medida que el Pokémon crece, el bulbo también va haciéndose más grande."
+        ],
+        "imagen":"/gif/bulbasaur.gif",
+        "generacionInicial":1,
+        "urlGif":"https://tenor.com/es/view/bulbasaur-dance-gif-12581730900408985154"
+    },
+    {
+        "numDex": 2,
+        "nombre": "Ivysaur",
+        "tipos": [
+            "PLANTA",
+            "VENENO"
+        ],
+        "descripcionesPokedex": [
+            "1ra gen:Cuando el bulbo de su espalda crece, parece no poder ponerse de pie sobre sus patas traseras.",
+            "2da gen:Si el capullo de su lomo comienza a oler dulce, indica que la gran flor pronto florecerá.",
+            "3ra gen:Este Pokémon lleva un bulbo en el lomo y, para poder con su peso, tiene unas patas y un tronco gruesos y fuertes. Si empieza a pasar más tiempo al sol, será porque el bulbo está a punto de hacerse una flor grande.",
+            "9na gen:El capullo de la espalda crece al absorber nutrientes. Desprende un aroma delicioso cuando está a punto de florecer."
+        ],
+        "imagen":"/gif/ivysaur.gif",
+        "generacionInicial":1,
+        "urlGif":"https://tenor.com/es/view/ivysaur-pokemon-pokemon-ivysaur-sandwich-eating-gif-16345791740483745043"
+    },
+    {
+        "numDex": 3,
+        "nombre": "Venusaur",
+        "tipos": [
+            "PLANTA",
+            "VENENO"
+        ],
+        "descripcionesPokedex": [
+            "1ra gen:La planta florece cuando absorbe energía solar. Ésta le obliga a ponerse en busca de la luz solar.",
+            "2da gen:Llena su cuerpo de energía con los rayos solares que captan los anchos pétalos de su flor.",
+            "3ra gen:Venusaur tiene una flor enorme en el lomo que, según parece, adquiere unos colores muy vivos si está bien nutrido y le da mucho el sol. El aroma delicado de la flor tiene un efecto relajante en el ánimo de las personas.",
+            "9na gen:Llena su cuerpo de energía con los rayos solares que capta al extender los enormes pétalos de su flor."
+        ],
+        "imagen":"/gif/venusaur.gif",
+        "generacionInicial":1,
+        "urlGif":"https:/tenor.com/es/view/pokemon-venusaur-venusaur-pokemon-pokemon-venusaur-/gif-20178380"
+    },
+    {
+        "numDex": 4,
+        "nombre": "Charmander",
+        "tipos": [
+            "FUEGO"
+        ],
+        "descripcionesPokedex": [
+            "1ra gen:Prefiere los sitios calientes. Dicen que cuando llueve sale vapor de la punta de su cola.",
+            "2da gen:La llama de su cola indica la fuerza vital de Charmander. Será brillante si está sano.",
+            "3ra gen:La llama que tiene en la punta de la cola arde según sus sentimientos. Llamea levemente cuando está alegre y arde vigorosamente cuando está enfadado.",
+            "9na gen:Si está sano, la llama de la punta de su cola arderá vigorosamente, aunque se le moje un poco"
+        ],
+        "imagen":"/gif/charmander.gif",
+        "generacionInicial":1,
+        "urlGif":"https:/tenor.com/es/view/charmander-chases-tail-pokemon-nintendo-/gif-16189806743405656732"
+    },
+    {
+        "numDex": 5,
+        "nombre": "Charmeleon",
+        "tipos": [
+            "FUEGO"
+        ],
+        "descripcionesPokedex": [
+            "1ra gen:Cuando balancea su ardiente cola, eleva la temperatura a niveles muy altos.",
+            "2da gen:La llama de su cola indica la fuerza vital de Charmander. Será brillante si está sano.",
+            "3ra gen:Charmeleon no tiene reparo en acabar con su rival usando las afiladas garras que tiene. Si su enemigo es fuerte, se vuelve agresivo, y la llama que tiene en el extremo de la cola empieza a arder con mayor intensidad tornándose azulada.",
+            "9na gen:Por naturaleza, se acalora con facilidad: siempre está buscando adversarios. Solo se calma cuando gana."
+        ],
+        "imagen":"/gif/charmeleon.gif",
+        "generacionInicial":1,
+        "urlGif":"https://tenor.com/es/view/pok%C3%A9mon-charmeleongif-gif-22152235"
+    },
+    {
+        "numDex": 6,
+        "nombre": "Charizard",
+        "tipos": [
+            "FUEGO",
+            "VOLADOR"
+        ],
+        "descripcionesPokedex": [
+            "1ra gen:Escupe fuego tan caliente que funde las rocas. Causa incendios forestales sin querer.",
+            "2da gen:Con sus intensas llamas, derrite casi cualquier cosa. Su aliento causa un terrible dolor al enemigo.",
+            "3ra gen:Charizard se dedica a volar por los cielos en busca de oponentes fuertes. Echa fuego por la boca y es capaz de derretir cualquier cosa. No obstante, si su rival es más débil que él, no usará este ataque.",
+            "9na gen:Utiliza las alas para volar a gran altura. Cuanta más experiencia gane en batalla, mayor será la temperatura de sus llamas."
+        ],
+        "imagen":"/gif/charizard.gif",
+        "urlGif":"https://tenor.com/es/view/charizard-flying-charizard-flying-pokemon-charizard-gif-23682195",
+        "generacionInicial":1
+    },
+    {
+        "numDex": 7,
+        "nombre": "Squirtle",
+        "tipos": [
+            "AGUA"
+        ],
+        "descripcionesPokedex": [
+            "1ra gen:Tras nacer, su espalda se hincha y endurece como una concha. Echa potente espuma por la boca.",
+            "2da gen:Su caparazón es blando al nacer. Pero pronto se endurecerá y será capaz de resistir cualquier amenaza.",
+            "3ra gen:El caparazón de Squirtle no le sirve de protección únicamente. Su forma redondeada y las hendiduras que tiene le ayudan a reducir su resistencia al agua y le permiten nadar a gran velocidad.",
+            "9na gen:Tras nacer, se le hincha el lomo y se le forma un caparazón. Escupe poderosa espuma por la boca."
+        ],
+        "imagen":"/gif/squirtle.gif",
+        "generacionInicial":1
+    },
+    {
+        "numDex": 8,
+        "nombre": "Wartortle",
+        "tipos": [
+            "AGUA"
+        ],
+        "descripcionesPokedex": [
+            "1ra gen:Se oculta en el agua para cazar a sus presas. Al nadar rápidamente, mueve sus orejas para nivelarse.",
+            "2da gen:Es reconocido como símbolo de longevidad. Los Wartortle ancianos tienen algas sobre el caparazón.",
+            "3ra gen:Tiene una cola larga y cubierta de un pelo abundante y grueso que se torna más oscuro a medida que crece. Los arañazos que tiene en el caparazón dan fe de lo buen guerrero que es.",
+            "9na gen:Suele ocultarse en el agua para cazar a sus presas. Al nadar rápidamente, mueve las orejas para estabilizarse."
+        ],
+        "imagen":"/gif/wartortle.gif",
+        "generacionInicial":1,
+        "urlGif":"https:/tenor.com/es/view/blastoise-pokemon-pokemon-blastoise-/gif-3683607367687920386"
+    },
+    {
+        "numDex": 9,
+        "nombre": "Blastoise",
+        "tipos": [
+            "AGUA"
+        ],
+        "descripcionesPokedex": [
+            "1ra gen:Un brutal Pokémon con reactores de agua en su caparazón. Éstos son usados para rápidos placajes.",
+            "2da gen:Los cañones de su concha disparan chorros de agua capaces de hacer agujeros en las planchas de acero.",
+            "3ra gen:Blastoise lanza chorros de agua por los tubos que le salen del caparazón que tiene en la espalda, con gran precisión. Puede disparar chorros de agua con tanta puntería que no fallaría al tirar contra una lata pequeña a 50 metros.",
+            "9na gen:Aumenta de peso deliberadamente para contrarrestar la fuerza de los chorros de agua que dispara."
+        ],
+        "imagen":"/gif/blastoise.gif",
+        "generacionInicial":1
+    },
+    {
+        "numDex": 150,
+        "nombre": "Mew",
+        "tipos": [
+            "PSIQUICO"
+        ],
+        "descripcionesPokedex": [
+            "1ra gen:Es tan raro que muchos expertos opinan que es solo una ilusión. Solo unos pocos lo han visto.",
+            "2da gen:Dicen que su ADN contiene el código genético de todos los Pokémon, por lo que conoce cualquier técnica.",
+            "3ra gen:Dicen que posee el mapa genético de todos los Pokémon. Puede hacerse invisible a voluntad, así que logra pasar inadvertido aunque haya gente cerca.",
+            "8va gen:Considerado el ancestro de todos los Pokémon, posee una inteligencia extraordinaria y es capaz de usar cualquier técnica."
+        ],
+        "imagen":"/gif/mew.gif",
+        "generacionInicial":1
+    },
+    {
+        "numDex": 151,
+        "nombre": "Mewtwo",
+        "tipos": [
+            "PSIQUICO"
+        ],
+        "descripcionesPokedex": [
+            "1ra gen:Fue creado por un científico tras años de horribles experimentos de ingeniería genética.",
+            "2da gen:Parece que descansa tranquilamente en una cueva desconocida. Fue creado expresamente para luchar.",
+            "3ra gen:Fue creado por manipulación genética, pero, a pesar de que los científicos dieron a Mewtwo un cuerpo, no lograron dotarle de un corazón compasivo.",
+            "8va gen:Este Pokémon se creó a partir de los genes de Mew. Exhibe una naturaleza salvaje y posee una fuerza abrumadora."
+        ],
+        "imagen":"/gif/mewtwo.gif",
+        "generacionInicial":1
+    },
+    {
+        "numDex": 152,
+        "nombre": "Chikorita",
+        "tipos": [
+            "PLANTA"
+        ],
+        "descripcionesPokedex": [
+            "2da gen:Sus hojas aromáticas son capaces de medir la humedad y la temperatura.",
+            "3ra ge:Al luchar, Chikorita agita la hoja que tiene para mantener a raya al rival. Pero, al mismo tiempo, libera una suave fragancia que apacigua el encuentro y crea un ambiente agradable y de amistad.",
+            "4ta gen:Con la hoja de su cabeza puede medir la temperatura y la humedad. Le encanta tomar el sol.",
+            "9na gen:Su hoja aromática puede medir la humedad y la temperatura a su alrededor."
+        ],
+        "imagen":"/gif/chikorita.gif",
+        "generacionInicial":2
+    },
+    {
+        "numDex": 153,
+        "nombre": "Bayleef",
+        "tipos": [
+            "PLANTA"
+        ],
+        "descripcionesPokedex": [
+            "2da gen:Emana un aroma picante de su cuello. El aroma actúa como estimulante para recuperar su salud.",
+            "3ra gen:Bayleef tiene un collar de hojas alrededor del cuello y un brote de un árbol en cada una de ellas. La fragancia que desprenden estos brotes animan a la gente.",
+            "4ta gen:Su cuello desprende un dulce aroma que anima a quien lo huele.",
+            "9na gen:Las hojas que le adornan el cuello emiten un aroma que resulta vigorizante para quien lo perciba."
+        ],
+        "imagen":"/gif/bayleef.gif",
+        "urlGif":"https:stenor.com/es/view/bayleef-pokemon-/gif-9798376",
+        "generacionInicial":2
+    },
+    {
+        "numDex": 154,
+        "nombre": "Meganium",
+        "tipos": [
+            "PLANTA"
+        ],
+        "descripcionesPokedex": [
+            "2da gen:El aliento de Meganium tiene el poder de revivir los rastrojos, además de regenerarlos.",
+            "3ra gen:El olor que desprenden sus pétalos contiene una sustancia que calma el instinto agresivo.",
+            "4ta gen:Su aliento tiene la maravillosa capacidad de revivir plantas y flores muertas.",
+            "9na gen:El aliento de Meganium tiene el poder de revivir las plantas y los árboles secos."
+        ],
+        "imagen":"/gif/meganium.gif",
+        "generacionInicial":2,
+        "urlGif":"https:/tenor.com/es/view/meganium-standing-/gif-21336049"
+    },
+    {
+        "numDex": 155,
+        "nombre": "Cyndaquil",
+        "tipos": [
+            "FUEGO"
+        ],
+        "descripcionesPokedex": [
+            "2da gen:Suele estar acurrucado. Si se enfada o asusta, lanzará llamas por su lomo.",
+            "3ra gen:Cyndaquil se protege soltando llamas por el lomo. Cuando está enfadado, las llamas son fieras, pero si está cansado sólo consigue echar algunas chispas que no llegan a cuajar en una completa combustión.",
+            "4ta gen:Es un Pokémon muy tímido. Si se asusta, las llamas de su lomo arden con más fuerza.",
+            "9na gen:Cuando se enfada, las llamas que emite por el lomo arden con más vigor que nunca, lo cual intimida a sus rivales."
+        ],
+        "imagen":"/gif/cyndaquil.gif",
+        "generacionInicial":2,
+        "urlGif":"https:/tenor.com/es/view/cyndaquil-lol-poke-animation-/gif-26663109"
+    },
+    {
+        "numDex": 156,
+        "nombre": "Quilava",
+        "tipos": [
+            "FUEGO"
+        ],
+        "descripcionesPokedex": [
+            "2da gen:El pelaje de este Pokémon es ignífugo. Puede soportar cualquier ataque de fuego.",
+            "3ra gen:Quilava mantiene a sus rivales a raya con la intensidad de sus llamas y las ráfagas de aire ígneo. Este Pokémon usa su espectacular ingenio para esquivar ataques hasta cuando abrasa al rival con sus llamas.",
+            "4ta gen:Intimida a sus enemigos con el calor de sus llamas. Arde con mayor fuerza cuando va a luchar.",
+            "9na gen:El pelaje de este Pokémon es ignífugo. Puede soportar cualquier ataque con fuego."
+        ],
+        "imagen":"/gif/quilava.gif",
+        "generacionInicial":2,
+        "urlGif":"https:/tenor.com/es/view/speed-flames-fire-quilava-pokemon-/gif-7283518634904788395"
+    },
+    {
+        "numDex": 157,
+        "nombre": "thyplosion",
+        "tipos": [
+            "FUEGO"
+        ],
+        "descripcionesPokedex": [
+            "2da gen:Tiene una habilidad secreta y devastadora. Causa explosiones al frotar su pelaje.",
+            "3ra gen:Se oculta tras un trémulo haz de calor que crea mediante intensas y sofocantes llamaradas. Provoca explosiones abrasadoras que reducen todo a cenizas.",
+            "4ta gen:Ataca con llamaradas. Con ellas crea reflejos de calor para ocultarse.",
+            "9na gen:Cuando su furia alcanza su apogeo, se calienta tanto que cualquier cosa que toque prenderá al instante."
+        ],
+        "imagen":"/gif/thyplosion.gif",
+        "generacionInicial":2,
+        "urlGif":"https:/tenor.com/es/view/typhlosion-pokemon-fire-cute-anime-/gif-17925395"
+    },
+    {
+        "numDex": 158,
+        "nombre": "Totodile",
+        "tipos": [
+            "AGUA"
+        ],
+        "descripcionesPokedex": [
+            "2da gen:Sus desarrolladas y potentes fauces pueden romper cualquier cosa. Su entrenador debe tener cuidado.",
+            "3ra gen:Tiene un cuerpo pequeño, pero fuertes mandíbulas. A veces piensa que sólo está dando un mordisquito de nada y hace unas heridas bastante considerables.",
+            "4ta gen:Tiene costumbre de morderlo todo con sus poderosas mandíbulas, incluso Entrenadores.",
+            "9na gen:Esta violenta criatura le clava los dientes a todo lo que se mueve. Conviene no cometer la imprudencia de darle la espalda."
+        ],
+        "imagen":"/gif/totodile.gif",
+        "generacionInicial":2,
+        "urlGif":"https:/tenor.com/es/view/totodile-pokemon-/gif-21773247"
+    },
+    {
+        "numDex": 159,
+        "nombre": "Croconaw",
+        "tipos": [
+            "AGUA"
+        ],
+        "descripcionesPokedex": [
+            "2da gen:Abre sus grandes fauces cuando le atacan. Si pierde algún colmillo al morder, le vuelve a crecer.",
+            "3ra gen:Una vez que Croconaw le ha clavado los colmillos a su presa, es imposible que escape porque los tiene hacia adentro como si fueran anzuelos. Cuando Croconaw hinca los dientes, no hay escapatoria.",
+            "4ta gen:Cuando muerde algo, no lo suelta hasta que pierde sus colmillos. Estos se regeneran rápidamente.",
+            "9na gen:Sus colmillos están curvados hacia dentro, por lo que, una vez que muerde a una presa, esta no tiene forma de escapar."
+        ],
+        "imagen":"/gif/croconaw.gif",
+        "generacionInicial":2,
+        "urlGif":"https:/tenor.com/es/view/croconaw-thug-bad-decisions-thug-/gif-19155518"
+    },
+    {
+        "numDex": 160,
+        "nombre": "Feraligatr",
+        "tipos": [
+            "AGUA"
+        ],
+        "descripcionesPokedex": [
+            "2da gen:Le cuesta soportar su propio peso fuera del agua, así que va a cuatro patas. Aún así es rápido.",
+            "3ra ge:Feraligatr intimida a sus oponentes abriendo las grandes fauces que tiene. En combate, golpea el suelo bruscamente con las gruesas y fuertes patas traseras que tiene para cargar contra su rival a una velocidad de vértigo.",
+            "4ta gen:Se suele mover lento, pero alcanza velocidades de vértigo al atacar y morder a sus enemigos.",
+            "9na gen:A pesar de su corpulencia, sus fuertes patas traseras le permiten desplazarse con rapidez incluso en tierra firme."
+        ],
+        "imagen":"/gif/feraligatr.gif",
+        "generacionInicial":2,
+        "urlGif":"https:/tenor.com/es/view/feraligatr-pokemon-feraligatr-feraligatr-punch-feraligatr-beating-best-pokemon-/gif-19893475"
+    },
+    {
+        "numDex": 197,
+        "nombre": "Umbreon",
+        "tipos": [
+            "SINIESTRO"
+        ],
+        "descripcionesPokedex": [
+            "2da gen:Cuando oscurece, los anillos de su cuerpo empiezan a brillar, asustando a cualquiera que se acerque.",
+            "3ra gen:Evolucionó tras haber estado expuesto a ondas lunares. Se esconde en la oscuridad en silencio y espera a que su presa se mueva. Cuando ataca, le brillan los anillos",
+            "4ta gen:Cuando oscurece, los anillos de su cuerpo empiezan a brillar, asustando a cualquiera que se acerque.",
+            "9na gen:Si se expone al aura de la luna, los anillos de su cuerpo relucen y adquiere un poder misterioso."
+        ],
+        "imagen":"/gif/umbreon.gif",
+        "generacionInicial":2,
+        "urlGif":"https:/tenor.com/es/view/shiny-umbreon-umbreon-trashcam1111-pokemon-/gif-27397617"
+    },
+    {
+        "numDex": 249,
+        "nombre": "Lugia",
+        "tipos": [
+            "PSIQUICO",
+            "VOLADOR"
+        ],
+        "descripcionesPokedex": [
+            "2da gen:Dicen que es el guardián de los mares. Hay rumores de que fue visto en una noche de tormenta.",
+            "3ra gen:La fuerza que tiene Lugia en las alas es devastadora; con nada que las bata es capaz de derribar edificios enteros. Por eso mismo, prefiere vivir donde no haya nadie, en lo más profundo del mar.",
+            "4ta gen:Dicen que es el guardián de los mares. Hay rumores de que fue visto en una noche de tormenta.",
+            "8va gen:Duerme en lo más profundo de una fosa marina. Se dice que causa tormentas de 40 días cuando bate las alas."
+        ],
+        "imagen":"/gif/lugia.gif",
+        "generacionInicial":2,
+        "urlGif":"https:/tenor.com/es/view/lugia-pokemon-/gif-18788207"
+    },
+    {
+        "numDex": 250,
+        "nombre": "Ho-Oh",
+        "tipos": [
+            "FUEGO",
+            "VOLADOR"
+        ],
+        "descripcionesPokedex": [
+            "2da gen:Cuenta la leyenda que este Pokémon vuela por el cielo con sus magníficas alas de siete colores.",
+            "3ra gen:El plumaje de Ho-Oh contiene siete colores que pueden apreciarse según el ángulo desde el que les dé la luz. Dicen que sus plumas dan felicidad a quienes las llevan y, también, que este Pokémon vive a los pies del arco iris.",
+            "4ta gen:Cuenta la leyenda que brilla en siete colores. Dicen que deja un arco iris tras de sí al volar.",
+            "8va gen:Su plumaje tiene siete colores. Se dice que verlo proporciona felicidad eterna."
+        ],
+        "imagen":"/gif/hoho.gif",
+        "generacionInicial":2,
+        "urlGif":"https:/tenor.com/es/view/pokemon-legendary-/gif-14163228"
+    }
+
+]

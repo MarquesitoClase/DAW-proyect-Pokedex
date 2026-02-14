@@ -1,0 +1,9 @@
+8.4. Haz un nuevo proyecto, partiendo del ejercicio 8.1 (CRUD de Empleados) incorporando una gestión
+de errores basada en el modelo ResponseStatusException.
+• Crea las excepciones ‘empleado no encontrado’ y ‘base de datos sin empleados’ e invócalas
+desde la capa de servicio. La primera se lanzaría en los métodos findById y delete y la segunda
+en el método findAll.
+• En el controlador, invocar a los métodos de servicio dentro de un try... catch, y que en caso de
+que se produzca enviar al cliente un ResponseStatusException.
+• Configura los dos parámetros en application.properties para que funcione
+ResponseStatutException.

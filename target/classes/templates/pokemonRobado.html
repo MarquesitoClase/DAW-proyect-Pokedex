@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+
+<head>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teneis Problemas?</title>
+    <script src="/js/pokemonRobado.js"></script>
+    <link rel="stylesheet" href="/css/teamRocketStyle.css">
+    <link rel="icon" type="image/png" href="/static/icono/MasterBal.png">
+</head>
+
+<body>
+    <a href="http://localhost:9000/pokedex">Volver a dexView<br></a>
+    <div id="reproductor"></div>
+    <input type="text" th:value="${NDexFaltante}" id="nDexRobado" readonly></i>
+    <h2>El pokemon fue robado de nuestra BD!!</h2>
+    <form th:action="@{/recuperarDatos/{numDex}(numDex=${NDexFaltante})}" method="post">
+        <div id="lema">
+            <p class="Jessie">Para proteger al mundo de la devastación.</p>
+            <p class="James">Para unir a todos los pueblos en una sóla nación</p>
+            <p class="Jessie">Para denunciar a los enemigos de la verdad y el amor</p>
+            <p class="James">Para extender nuestro poder más allá del espacio exterior</p>
+            <p class="Jessie">Jessie</p>
+            <p class="James">James</p>
+            <p class="Jessie">El team Rocket, despega a la velocidad de la luz</p>
+            <p class="James">Rendios ahora o preparaos para luchar</p>
+            <p class="Meawth">¡Meawth!¡Bien dicho!</p>
+        </div>
+            <button id="devDatos">Reentregar los datos robados</button>
+    </form>
+</body>
+</html>

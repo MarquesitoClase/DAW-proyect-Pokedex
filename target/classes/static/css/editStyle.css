@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+label {
+    text-align: left;
+    padding-right: 10px;
+    grid-column: 1;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    grid-column: 2;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[readonly] {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+h2 {
+    grid-column: 1 / span 2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+select {
+    width: 100%;
+}
+
+button {
+    grid-column: 1 / span 2;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: auto;
+    justify-self: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

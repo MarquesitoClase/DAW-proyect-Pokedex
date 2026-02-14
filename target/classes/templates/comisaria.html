@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/comisariaStyle.css">
+    <title>Comisaría</title>
+    <link rel="icon" type="image/png" href="/static/icono/MasterBal.png">
+</head>
+<body id="comisaria">
+    <h1>Gracias por su colaboración recuperando los datos!</h1>
+    <h2>Formulario de datos robados:</h2>
+    <form id="formulario" th:action="@{/recuperarDatos/{numDex}(numDex=${numDex})}" method="post" th:object="${pokemon}">
+        <h1>Numero de la pokedex: <span th:text="${numDex}"></span></h1>
+        <input type="text" id="iNombre">
+        <label for="iNombre">Que nombre tiene este pokemon?</label><br>
+
+        <label for="rutaImagen">Ubicación de su imagen:</label>
+        <input type="text" id="rutaImagen" maxlength="20" name="imagen""><br>
+
+        <label for="genIni"></label>
+        <input type="number" min="1" max="9" id="generacionInicial" name="generacionInicial" step="1">
+
+        <label for="tipo1">Tipo 1 del pokemon:</label>
+        <select id="tipo1" th:field="${tipos}"></select>
+
+        <label for="tipo2">Tipo 2 del pokemon:</label>
+        <select id="tipo2" th:field="${tipos}"></select>
+
+        <label for="desc1">Primera descripción de sus pokedex:</label>
+        <textarea id="desc1" name="desc1"></textarea>
+
+        <label for="desc2">Segunda descripción de sus pokedex:</label>
+        <textarea id="desc2" name="desc2"></textarea>
+
+        <label for="desc3">Tercera descripción de sus pokedex:</label>
+        <textarea id="desc3" name="desc3"></textarea>
+
+        <label for="descFinal">Ultima descripción de sus pokedex:</label>
+        <textarea id="descFinal" name="descFinal"></textarea>
+    </form>
+</body>
+</html>
