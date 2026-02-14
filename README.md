@@ -49,14 +49,9 @@ recomienda añadir tests unitarios con JUnit y Mockito.
 
 ## 📄 Licencia
 
-Este proyecto está bajo licencia MIT. Consulta el archivo `LICENSE` para más
-detalles (si se añade más adelante).
-
+Este proyecto está bajo licencia CC By.
 ## 👨‍💻 Autor
 
 - Juan Luis Marquez Canedo (jlmsc) – desarrollador del proyecto.
 
 ---
-
-¡Gracias por revisar este trabajo de fin de ciclo! Espero que te sea útil y
-que puedas continuar desarrollando nuevas funcionalidades.
