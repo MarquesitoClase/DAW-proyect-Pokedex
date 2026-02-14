@@ -60,16 +60,16 @@ Este proyecto está bajo licencia CC By.
 ## Endpoints aplicacion:
 http://localhost:9000: es la base con la que trabaja la app
 
-/api/pokemons: Muestra todos los datos del JSON como texto plano, en el orden del mismo(según 
+http://localhost:9000/api/pokemons: Muestra todos los datos del JSON como texto plano, en el orden del mismo(según 
 el número de la dex nacional).
 
-/pokedex", "/todos" o "/all" Llevan a ver toda la vista de la pokedex gen la app
+http://localhost:9000/pokedex", "/todos" o "/all" Llevan a ver toda la vista de la pokedex gen la app
 
-/pokemonView/{#numDex} Lleva a ver el pokemon de la pokedex que has puesto.
+http://localhost:9000/pokemonView/{#numDex} Lleva a ver el pokemon de la pokedex que has puesto.
 
-/editar/{numDex} Lleva a editar los datos del pokemon de ese número de la dex nacional(si no existe te lo crea al editarlo)
+http://localhost:9000/editar/{numDex} Lleva a editar los datos del pokemon de ese número de la dex nacional(si no existe te lo crea al editarlo)
 
-/borrar/{numDex} te elimina el pokemon con ese numDex(pide confirmación)
+http://localhost:9000/borrar/{numDex} te elimina el pokemon con ese numDex(pide confirmación)
 
-/pokemonRobado/{numDex}(A esta ruta se te redirige si no tenemos en los datos al pokemon que buscas)
+http://localhost:9000/pokemonRobado/{numDex}(A esta ruta se te redirige si no tenemos en los datos al pokemon que buscas)
 ---
