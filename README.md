@@ -71,5 +71,5 @@ http://localhost:9000/editar/{numDex} Lleva a editar los datos del pokemon de es
 
 http://localhost:9000/borrar/{numDex} te elimina el pokemon con ese numDex(pide confirmación)
 
-http://localhost:9000/pokemonRobado/{numDex}(A esta ruta se te redirige si no tenemos en los datos al pokemon que buscas)
+http://localhost:9000/pokemonRobado/{numDex} (A esta ruta se te redirige si no tenemos en los datos al pokemon que buscas)
 ---
