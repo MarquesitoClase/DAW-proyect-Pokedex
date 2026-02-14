@@ -52,6 +52,6 @@ recomienda añadir tests unitarios con JUnit y Mockito.
 Este proyecto está bajo licencia CC By.
 ## 👨‍💻 Autor
 
-- Juan Luis Marquez Canedo (jlmsc) – desarrollador del proyecto.
+- Juan Luis Marquez Canedo – desarrollador del proyecto.
 
 ---
