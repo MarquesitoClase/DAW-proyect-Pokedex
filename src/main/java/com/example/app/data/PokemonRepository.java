@@ -11,6 +11,8 @@ import com.example.app.domain.Pokemon;
 
 import jakarta.validation.Valid;
 
+import lombok.NonNull;
+
 @Repository
 public interface PokemonRepository extends JpaRepository<Pokemon, Long> {
     public Optional<Pokemon> findByNombre(String nombre);

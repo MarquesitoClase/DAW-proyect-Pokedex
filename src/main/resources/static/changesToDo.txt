@@ -1,0 +1,3 @@
+if you go to localhost:9000/pokedex, you will see that the points that mark the definition of diferent's game's 
+pokedex list are into the td of the pokemon name visually. Tthere need be putted in on one line to under, 
+looking better. To make that last, it will be nice change the CSS to make it be centered to be in column and not like it's now.
